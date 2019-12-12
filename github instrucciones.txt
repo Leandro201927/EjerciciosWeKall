@@ -1,0 +1,15 @@
+pwd (Muestra en qué directorio estamos
+
+cd DIRECTORIO (Accedemos al directorio)
+
+git init (Iniciamos GitHub)
+
+git add README.md (Añadimos un readme.md)
+
+git add . (NO IGNORAR EL PUNTO!, añade a la cola a GitHub todos los archivos que hay dentro de la carpeta)
+
+git config --global user.email "you@example.com" (Iniciamos sesión)
+git config --global user.name "Your Name"
+
+git commit -m "Mi primer commit" 
+git push -u origin master (Subimos los archivos a la nube de GitHub)
